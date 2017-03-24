@@ -6,8 +6,7 @@
 * This crawler is originally used for collecting data for academic purposes. To avoid unnecessary burden on the Airbnb server, please do not abuse this crawler. You can find tons of Airbnb data at [Inside Airbnb](http://insideairbnb.com/), which may meet your needs.
 
 * This project is developed with:
-
- > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
+  > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
 
 ## What is it?
 This is a multiprocessing Python web crawler using `requests` and `bs4` packages. With input data of user ID, it collects data of each user including:
@@ -116,7 +115,7 @@ Next is output dataset (has been organized into table from text file):
 
 This web crawler firstly open a user's Airbnb page via his/her ID (`reviewer_id` in input dataset). Then it collects the data on his/her page, including variables noted in output dataset above.
 
-Here is function of each Python file:
+What each Python file does:
 * `Run_with_pool.py`: Read unfinished task in *input.csv*, establish IP pool, control multiprocessing web crawling tasks (`Control.py`) and write results into *output.txt*.
 * `Control.py`: Crawl data in each page and write them to a list.
 * `meancut.py`: Divide IP pool to equal parts.
@@ -140,7 +139,7 @@ gaofangshu@foxmail.com
 * 本爬虫起初用于学术数据采集目的，请不要滥用以免对 Airbnb 服务器造成不必要负担。[Inside Airbnb](http://insideairbnb.com/) 有海量Airbnb数据，也许能满足你的需求。
 
 * 本爬虫的开发环境为：
- > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
+  > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
 
 ## 功能介绍
 这是一个基于 `requests` 和 `bs4` 包的 Python 多进程爬虫。读取用户 ID，它可以爬取以下用户数据：
@@ -187,7 +186,6 @@ gaofangshu@foxmail.com
 其中 `listing_id` 每个 Airbnb 房源的 ID，`id` 是数据集每个观测值的ID，`reviewer_id` 是在对应房源上评论的用户的ID。
 
 接下来是输出数据集（已从txt文件整理为表格）：
-Next is output dataset (has been organized into table from text file):
 
 <div style="overflow:auto;overflow-y:hidden;white-space:nowrap" border="1" align=center>
 	<table>
