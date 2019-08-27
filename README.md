@@ -5,8 +5,7 @@
 ## Attention
 * This crawler is originally used for collecting data for academic purposes. To avoid unnecessary burden on the Airbnb server, please do not abuse this crawler. You can find tons of Airbnb data at [Inside Airbnb](http://insideairbnb.com/), which may meet your needs.
 
-* This project is developed with:
-  > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
+* This project is developed with Python 2.7.12:
 
 ## What is it?
 This is a multiprocessing Python web crawler using `requests` and `bs4` packages. With input data of user ID, it collects data of each user including:
@@ -138,8 +137,7 @@ gaofangshu@foxmail.com
 
 * 本爬虫起初用于学术数据采集目的，请不要滥用以免对 Airbnb 服务器造成不必要负担。[Inside Airbnb](http://insideairbnb.com/) 有海量Airbnb数据，也许能满足你的需求。
 
-* 本爬虫的开发环境为：
-  > Python 2.7.12<br>PyCharm Community Edition 2016.3.2
+* 本爬虫的开发环境为 Python 2.7.12：
 
 ## 功能介绍
 这是一个基于 `requests` 和 `bs4` 包的 Python 多进程爬虫。读取用户 ID，它可以爬取以下用户数据：
